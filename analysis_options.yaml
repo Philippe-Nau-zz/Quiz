@@ -1,0 +1,12 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    type_annotate_public_apis: false
+    prefer_single_quotes: true
+    prefer_const_declarations: true
+    prefer_const_constructors: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_literals_to_create_immutables: true
+    sort_pub_dependencies: false
